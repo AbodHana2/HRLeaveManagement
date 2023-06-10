@@ -3,7 +3,9 @@ using HRLeaveManagement.Domain;
 
 namespace HRLeaveManagement.Application.Persistence.Contracts
 {
-    internal interface ILeaveAllLocationRepository : IGenericRepository<LeaveAllocation>
+    public interface ILeaveAllLocationRepository : IGenericRepository<LeaveAllocation>
     {
+        Task<LeaveRequest> GetLeaveAllocationwithDetails(int id);
+        Task<List<LeaveRequest>> GetLeaveAllocationwithDetails();
     }
 }
