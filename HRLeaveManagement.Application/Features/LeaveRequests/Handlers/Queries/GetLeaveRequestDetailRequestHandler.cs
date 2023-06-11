@@ -13,7 +13,7 @@ namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Queries
         private readonly IMapper _mapper;
 
         public GetLeaveRequestDetailRequestHandler(ILeaveRequestRepository leaveRequestRepository,
-            IMapper mapper,
+            IMapper mapper
             )
         {
             _leaveRequestRepository = leaveRequestRepository;

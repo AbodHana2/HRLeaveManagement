@@ -1,4 +1,4 @@
-﻿using HRLeaveManagement.Application.DTOs;
+﻿using HRLeaveManagement.Application.DTOs.LeaveAllLocation;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveAllLocations.Requests.Queries

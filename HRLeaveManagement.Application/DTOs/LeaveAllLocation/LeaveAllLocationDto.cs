@@ -1,9 +1,7 @@
-﻿
+﻿using HRLeaveManagement.Application.DTOs.Common;
+using HRLeaveManagement.Application.DTOs.LeaveType;
 
-using HRLeaveManagement.Application.DTOs.Common;
-
-
-namespace HRLeaveManagement.Application.DTOs
+namespace HRLeaveManagement.Application.DTOs.LeaveAllLocation
 {
     public class LeaveAllLocationDto : BaseDto
     {
